@@ -45,7 +45,7 @@ export default {
   },
   methods: {
     async fetchHospitals() {
-      const response = await fetch("https://polar-mountain-11158.herokuapp.com/api/");
+      const response = await fetch("https://polar-mountain-11158.herokuapp.com/api");
       const data = await response.json();
       //console.log(data);
       return data;
